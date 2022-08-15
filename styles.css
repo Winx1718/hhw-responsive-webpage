@@ -1,6 +1,32 @@
 :root {
-  --primary-color: #63AEB2;
-  --primary-dark-color:#275A5A;
+  --primary-color: #63aeb2;
+  --primary-dark-color: #275a5a;
   --secondary-color: #f8fafa;
   --dark-color: #807f80;
+  --opaque-color: #807f8088;
+}
+body {
+  background-image: url(watercolor.jpg);
+  background-size: cover;
+}
+nav {
+  background: var(--secondary-color);
+}
+.hero {
+  background: var(--opaque-color);
+  padding: 175px 40px;
+}
+.hero h1 {
+  color: var(--secondary-color);
+  font-size: 65px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.hero h3 {
+  text-align: right;
+  font-size: 65px;
 }
