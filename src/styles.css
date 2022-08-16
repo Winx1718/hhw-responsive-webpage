@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #63aeb2;
+  --primary-dark-color: #275a5a;
+  --secondary-color: #f8fafa;
+  --dark-color: #807f80;
+  --opaque-color: #807f8088;
+}
+body nav {
+  background: var(--secondary-color);
+}
+a {
+  text-decoration: none;
+}
+.redhead img {
+  max-width: 400px;
+}
+.hero {
+  background: var(--opaque-color);
+  padding: 50px 10px;
+  text-align: center;
+  margin: 0 12px;
+}
+.hero h1 {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+.hero h2 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.hero a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.salonServices {
+  padding: 10px;
+  background: var(--primary-dark-color);
+  color: var(--secondary-color);
+}
+.salonServices h3 {
+  font-size: 35px;
+}
+.salonServices dt {
+  text-decoration: underline;
+}
+.waxingServices {
+  padding: 10px;
+  background: var(--secondary-color);
+  color: var(--primary-dark-color);
+}
+.waxingServices h2 {
+  font-size: 35px;
+}
+.arrow {
+  background: var(--opaque-color);
+  max-width: 100%;
+  text-align: center;
+  color: var(--secondary-color);
+}
+footer {
+  background: var(--opaque-color);
+  padding: 10px 10px;
+  text-align: center;
+}
+footer h2 {
+  font-size: 40px;
+}
+footer h4 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+footer h3 a {
+  color: var(--primary-dark-color);
+}
