@@ -5,20 +5,32 @@
   --dark-color: #807f80;
   --opaque-color: #807f8088;
 }
+body {
+  background: rgb(191, 228, 228);
+  background: linear-gradient(
+    69deg,
+    rgba(191, 228, 228, 1) 2%,
+    rgba(99, 174, 178, 1) 49%,
+    rgba(55, 122, 122, 1) 93%
+  );
+}
 body nav {
   background: var(--secondary-color);
 }
 a {
   text-decoration: none;
 }
-.redhead img {
-  max-width: 400px;
+header .row {
+  margin: 0 auto;
+  padding: 0;
+  --bs-gutter-x: -0.5rem;
 }
 .hero {
   background: var(--opaque-color);
-  padding: 50px 10px;
+  padding: 75px 10px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: 0 12px;
 }
 .hero h1 {
   color: var(--secondary-color);
@@ -36,7 +48,7 @@ a {
 }
 .salonServices {
   padding: 10px;
-  background: var(--primary-dark-color);
+  background: #275a5acc;
   color: var(--secondary-color);
 }
 .salonServices h3 {
@@ -47,7 +59,7 @@ a {
 }
 .waxingServices {
   padding: 10px;
-  background: var(--secondary-color);
+  background: #f8fafa9f;
   color: var(--primary-dark-color);
 }
 .waxingServices h2 {
