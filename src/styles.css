@@ -3,15 +3,15 @@
   --primary-dark-color: #275a5a;
   --secondary-color: #f8fafa;
   --dark-color: #807f80;
-  --opaque-color: #807f8088;
+  --opaque-color: #807f808c;
 }
 body {
   background: rgb(191, 228, 228);
   background: linear-gradient(
     69deg,
-    rgba(191, 228, 228, 1) 2%,
+    rgb(204, 242, 242) 2%,
     rgba(99, 174, 178, 1) 49%,
-    rgba(55, 122, 122, 1) 93%
+    rgb(65, 142, 142) 93%
   );
 }
 body nav {
@@ -67,6 +67,9 @@ header .row {
 .salonServices dt {
   text-decoration: underline;
 }
+.hat {
+  max-height:530px;
+}
 .waxingServices {
   padding: 10px;
   background: #f8fafa9f;
@@ -76,6 +79,9 @@ header .row {
 }
 .waxingServices h2 {
   font-size: 35px;
+}
+.legs{
+max-height: 530px;
 }
 .arrow {
   background: var(--opaque-color);
@@ -93,7 +99,8 @@ footer {
   margin-bottom: 10px;
 }
 footer h2 {
-  font-size: 40px;
+  font-size: 60px;
+  color: var(--secondary-color);
 }
 footer h4 {
   font-family: "Dancing Script", cursive;
