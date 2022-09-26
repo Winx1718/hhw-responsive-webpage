@@ -68,7 +68,7 @@ header .row {
   text-decoration: underline;
 }
 .hat {
-  max-height:530px;
+  max-height: 530px;
 }
 .waxingServices {
   padding: 10px;
@@ -80,8 +80,8 @@ header .row {
 .waxingServices h2 {
   font-size: 35px;
 }
-.legs{
-max-height: 530px;
+.legs {
+  max-height: 530px;
 }
 .arrow {
   background: var(--opaque-color);
@@ -90,6 +90,12 @@ max-height: 530px;
   max-width: 1294px;
   margin: 0 auto;
 }
+.socialLinks a {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
 footer {
   background: var(--opaque-color);
   padding: 10px 10px;
@@ -110,6 +116,13 @@ footer h4 {
 footer h3 a {
   color: var(--secondary-color);
 }
+footer a:hover {
+  color: rgb(149, 255, 220);
+}
+footer p {
+  margin-bottom: 0;
+}
+
 @media (max-width: 315px) {
   .navbar-brand {
     font-size: 1rem;
